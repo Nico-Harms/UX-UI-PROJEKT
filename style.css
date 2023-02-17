@@ -4,21 +4,13 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: black;
-}
-
-li {
-    list-style: none;
-}
-
 a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 1.5rem;
 }
 .navbar {
-    min-height: 70px;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,13 +25,29 @@ a {
 .nav-branding {
     font-size: 2rem;
 }
-.nav-link{
-    transition: 0.7s ease;
+.navbar ul li {
+    list-style: none;
+    display: block;
+    position: relative;
+    margin: 0 45px;
+    display: flex;
+    align-items: center;
 }
 
-.nav-link:hover {
-    color: dodgerblue;
-}
+.nav-menu li::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #d26800;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+  }
+  
+  .nav-menu li:hover::after {
+    width: 100%;
+  }
 
 .hamburger {
     display: none;
@@ -53,7 +61,35 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: white;
+    background-color: rgb(0, 0, 0);  
+  }
+
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    transform: scale(2);
+    gap: 20px;
+    padding-top: 3%;
+}
+h2 {
+    text-align: center;
+    padding-top: 5%;
+}
+.time {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 15px;
+}
+h4 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
 }
 
 @media(max-width:768px) {
@@ -86,5 +122,19 @@ a {
     }
     .nav-menu.active {
         Left: 0;
+    }
+    @media(max-width:768px) {
+        h2 {
+            font-size: 35px;
+        }
+.time {
+    margin: 5px;
+}
+.time h4 {
+    font-size: 12px;
+}
+.time small {
+font-size: 10px;
+}
     }
 }
