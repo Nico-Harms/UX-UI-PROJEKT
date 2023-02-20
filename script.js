@@ -21,7 +21,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.
 
     const currentYear = new Date().getFullYear();
 
-    const newYearTime = new Date('July 01 $ {currentYear + 1} 00:00:00');
+    const newYearTime = new Date("2023-03-01 00:00:00");
 
 function updateCountdowntime() {
     const currentTime = new Date();
@@ -31,7 +31,7 @@ function updateCountdowntime() {
     const m = Math.floor(diff / 1000 / 60 ) % 60;
     const s = Math.floor(diff / 1000) % 60;
 
-console.log(d); 
+console.log(diff); 
 
     days.innerHTML = d;
     hours.innerHTML = h < 10 ? '0' + h : h;
