@@ -28,11 +28,11 @@
                 <span class="bar"></span>
             </div>
         </nav>
-        <div class="align">
-           <div>
-            <h2>25% på alle måltidskasser</h2>
-            <h3>Tilbud slutter om</h3>
-        </div>
+        <div class="offer">
+            <div class="offertext">
+                <h2>25% på alle måltidskasser</h2>
+                <h3>Tilbud slutter om</h3>
+            </div>
             <div id="countdown" class="countdown">
 
                 <div class="time">
@@ -59,45 +59,88 @@
 
         </div>
     </header>
-<section class="slider">
-    <figure>
-        <div class="slide">
-            <img src="img/picture1.jpg" alt="">
-        </div>
-        <div class="slide">
-            <img src="img/picture2.jpg" alt="">
-        </div>
-        <div class="slide">
-            <img src="img/picture3.jpg" alt="">
-        </div>
-        <div class="slide">
-            <img src="img/picture4.jpg" alt="">
-        </div>
-        <div class="slide">
-            <img src="img/picture5.jpg" alt="">
-        </div>
-        <div class="slide">
-            <img src="img/picture6.jpg" alt="">
-        </div>
-    </figure>
-
-</section>
+    <section class="slider">
+        <figure>
+            <div class="slide">
+                <img src="img/picture1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/picture2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/picture3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/picture4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/picture5.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/picture6.jpg" alt="">
+            </div>
+        </figure>
+    </section>
+    <article class="fronttext">
+        <h3>Nippon</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, quas fugiat odio excepturi perspiciatis
+            distinctio vitae magni explicabo officia illum praesentium esse dolorem assumenda cupiditate saepe? A sint
+            perferendis quidem!
+        </p>
+    </article>
     <main class="main-content">
-<section class="options">
-    <div class="button-wrap box1">
-<img src="img/madkas1.jpeg" alt="">
-<figcaption>Samurai</figcaption>
-<a href="#"> <button type="button"><span></span>Besøg vores shop</button></a>
-</div>
-<div class="button-wrap box2">
-<img src="img/madkas2.jpeg" alt="">
-<figcaption>Fuglemor</figcaption>
-<a href="#"> <button type="button"><span></span>Besøg vores shop</button></a></div>
-<div class="button-wrap box3">
-<img src="img/madkas3.jpeg" alt="">
-<figcaption>Kejser</figcaption>
-<a href="#"> <button type="button"><span></span>Besøg vores shop</button></a></div>
-</section>
+
+
+
+
+
+
+        <section class="options">
+            <div class="mySlides fade">
+                <div class="button-wrap box1">
+                    <img src="img/madkas1.jpeg" alt="">
+                    <section class="dotsection" style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </section>
+                    <figcaption>Samurai</figcaption>
+                    <a href="#"> <button type="button"><span></span>Besøg vores shop</button></a>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="button-wrap box2">
+                    <img src="img/madkas2.jpeg" alt="">
+                    <section class="dotsection" style="text-align:center">
+
+                    </section>
+                    <figcaption>Maiko</figcaption>
+                    <a href="#"> <button type="button"><span></span>Besøg vores shop</button></a>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="button-wrap box3">
+                    <img src="img/madkas3.jpeg" alt="">
+                    <figcaption>Kejser</figcaption>
+                    <a href="#"> <button type="button"><span></span>Besøg vores shop</button></a>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </section>
+        <!-- Next and previous buttons -->
+
+
+
+        <br>
+
+        <!-- The dots/circles -->
+
     </main>
 </body>
 <script src="script.js"></script>
