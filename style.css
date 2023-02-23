@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -160,12 +161,14 @@ h4 {
     align-items: center;
     gap: 4rem;
     background-color: var(--bg);
+   
 
 }
 
 .options img {
     height: 400px;
     width: 500px;
+    
     object-fit: cover;
     box-shadow: -2px 8px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -2px 8px 5px 0px rgba(0, 0, 0, 0.75);
@@ -180,6 +183,7 @@ h4 {
     justify-content: center;
     text-align: center;
     gap: 20px;
+    background-color: wheat;
 }
 
 .options a {
@@ -247,7 +251,53 @@ figcaption {
 .prev, .next  {
     display: none;
 }
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 10px
+}
 
+.arrows path {
+	stroke: #ffffff;
+	fill: transparent;
+	stroke-width: 2px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari & Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari & Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari & Chrome */
+}
 
 @keyframes fade {
   from {opacity: .4}
@@ -346,10 +396,10 @@ figcaption {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 10%;
         gap: 1rem;
         flex-direction: column;
-        background-color: #d85509;
+        background-color: rgba(157, 87, 87, 0.5);
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -373,6 +423,7 @@ figcaption {
 /* Hide the images by default */
 .mySlides {
     display: none;
+
   }
   
   /* Next & previous buttons */
@@ -431,7 +482,7 @@ figcaption {
     
   }
   
-  .active, .dot:hover {
+  .dot.active, .dot:hover {
     background-color: #717171;
   }
   
@@ -449,7 +500,7 @@ figcaption {
 
 .options img {
     width: 80%;
-    border-radius: 20px;
+    margin-top: 5%;
 }
 .countdown {
     transform: scale(1.5);
