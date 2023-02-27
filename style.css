@@ -170,6 +170,7 @@ h4 {
 .options img {
     height: 400px;
     width: 500px;
+    margin-top: 20px;
     object-fit: cover;
     box-shadow: -2px 8px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -2px 8px 5px 0px rgba(0, 0, 0, 0.75);
@@ -178,13 +179,16 @@ h4 {
 }
 
 .button-wrap {
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 20px;
     background-color: var(--secondbg);
+    gap: 20px;
+
+
 
 }
 
@@ -248,7 +252,8 @@ figcaption {
     background-color: var(--bg);
     text-align: center;
     font-size: clamp(1.3rem, 3vw, 4rem);
-    padding: 0px 10px 5rem 0px;
+    padding: 0px 60px;
+    height: 50vh;
 }
 
 .fronttext h3 {
@@ -330,14 +335,15 @@ input[type=submit]:hover {
 .footer-text a {
     text-decoration: none;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
 }
 
 .footer-text ul li {
     list-style: none;
-    margin: 0 45px;
-    margin: 10px;
+    margin: 10px 10px; 
+    
+    width: 100%;
    
 }
 .footer-split {
@@ -349,15 +355,19 @@ input[type=submit]:hover {
 
 .footer-text {
     text-align: left;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 30px; 
 }
 .top-part-footer
 {
     display: flex;
     padding: 10px;
-    margin-top: 25%;
+    margin-top: 15%;
     background-color: var(--footercolor);
+}
+.fa-solid {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
 }
 
 label {
@@ -367,7 +377,7 @@ label {
 }
 
 .SoMe-icons {
-    height: 50vh;
+    height: 100%;
     background-color: var(--footercolor);
     width: 100%;
     display: flex;
@@ -375,7 +385,7 @@ label {
 }
 .fa-brands {
     font-size: 2rem;
-    padding-top: 1rem;
+    padding: 20px;
 }
 
 @keyframes arrow {
