@@ -276,15 +276,15 @@ figcaption {
 footer {
     height: 40vh;
     background-color: var(--bg);
-    display: flex;
-    text-align: flex-start;
-    padding: 10px;
+   display: flex;
+   flex-direction: column;
+    width: auto;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
 
 }
 
@@ -301,7 +301,7 @@ form h4 {
 
 .newsletterinput {
     width: 100%;
-    padding: 2px;
+    padding: 10px;
     margin: 4px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -334,20 +334,33 @@ input[type=submit]:hover {
     margin: 10px;
    
 }
-.fa-solid {
-    
-
+.footer-split {
+    position: absolute;
+    border-radius: 2px;
+    width: 100%;
+   
 }
 
 .footer-text {
     text-align: left;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 30px; 
+}
+.top-part-footer
+{
+    display: flex;
+    padding: 10px;
 }
 
 label {
     display: inline-block;
     width: 400px;
+}
+
+.SoMe-icons {
+    height: 50vh;
+    background-color: rgb(36, 21, 122);
+    width: 100%;
 }
 
 @keyframes arrow {
