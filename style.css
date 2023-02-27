@@ -8,6 +8,7 @@
 :root {
     --bg: rgb(177, 74, 74);
     --secondbg: rgb(13, 21, 59);
+    --footercolor: rgb(13, 21, 59);
 }
 
 a {
@@ -313,8 +314,8 @@ input[type=submit] {
     background-color: #3f2323;
     color: white;
     border: none;
-    padding: 5px;
-    margin-top: 5px;
+    padding: 10px;
+    margin-top: 9px;
 }
 
 input[type=submit]:hover {
