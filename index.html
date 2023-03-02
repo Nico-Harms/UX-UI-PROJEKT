@@ -112,11 +112,6 @@
         </p>
     </article>
     <main class="main-content">
-
-
-
-
-
         <!--choose ur box section -->
         <section class="options">
             <div class="mySlides fade">
@@ -127,10 +122,11 @@
                     <section class="dotsection" style="text-align:center">
                         <div class="icon-food">
                             <img src="img/spicy.webp">
+                            
                         </div>
                         <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot-inactive" onclick="currentSlide(2)"></span>
+                        <span class="dot-inactive" onclick="currentSlide(3)"></span>
                     </section>
                     <p>Samurai måltidskassen er til de hårde nysere, denne måltidskasse har
                         fokus på de stærke østlige krydderier
@@ -144,16 +140,14 @@
                     <!--Maiko box -->
                     <figcaption>Maiko</figcaption>
                     <img src="img/maiko.jpg" alt="">
-
-
                     <section class="dotsection" style="text-align:center">
                         <div class="icon-food">
                             <img src="img/skalddyr.webp" alt="">
                             <img src="img/spicy.webp">
                         </div>
-                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot-inactive" onclick="currentSlide(1)"></span>
                         <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot-inactive" onclick="currentSlide(3)"></span>
                     </section>
 
                     <p>Maiko måltidskassen er plantebaseret,
@@ -172,8 +166,8 @@
                         <div class="icon-food">
                             <img src="img/vegansk.webp">
                         </div>
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot-inactive" onclick="currentSlide(1)"></span>
+                        <span class="dot-inactive" onclick="currentSlide(2)"></span>
                         <span class="dot" onclick="currentSlide(3)"></span>
                     </section>
                     <p>
@@ -184,7 +178,10 @@
             </div>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+         
         </section>
+
 
     </main>
     <!--footer -->
