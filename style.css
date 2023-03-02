@@ -262,6 +262,7 @@ figcaption {
     margin: 20px;
     background-color: var(--orangeweb);
     width: 100%;
+    text-align: center;
 }
 
 .fronttext {
@@ -489,7 +490,29 @@ margin-top: 5rem;
     width: 100%;
   height: auto;
   object-fit: cover;
-  object-fit: contain;
+  
+}
+
+.info img {
+    width: 100%;
+}
+
+.fig-inspiration {
+font-size: 2rem;
+margin: 1px;
+}
+
+
+.button-inspi {
+    margin: auto;
+    padding: 1px 1px;
+    background-color: var(--orangeweb);
+    color: white;
+    position: absolute;
+  top: 90%;
+  left: 6px;
+  font-size: 20px;
+    
 }
 @keyframes arrow {
     0% {
