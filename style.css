@@ -182,7 +182,8 @@ h4 {
 }
 
 .options img {
-    width: 500px;
+    width: 60%;
+    height: 20rem;
     object-fit: cover;
     box-shadow: -2px 8px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -2px 8px 5px 0px rgba(0, 0, 0, 0.75);
@@ -218,9 +219,9 @@ h4 {
 }
 
 button {
-    width: 250px;
+    width: 350px;
     margin-bottom: 20px;
-    padding: 15px 0;
+    padding: 20px 0;
     text-align: center;
     border-radius: 25px;
     font-weight: bold;
@@ -400,13 +401,10 @@ label {
 /* Style for Login.html */ 
 .main-login {
     background-color: var(--bg);
-    height: 90vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
     text-align: center;
-    padding: 20px;
     
 }
 .top-login {
@@ -421,6 +419,7 @@ label {
 .inline-line hr {
     width: 200px;
     margin: 5px;
+    border: 1px solid var(--orangeweb);
 }
 .bottom-login {
 display: flex;
@@ -434,7 +433,6 @@ margin-top: 5rem;
     border-radius: 20px;
     background: transparent;
     color: var(--orangeweb);
-    margin: 20px;
 }
 /* End of login.html styling */ 
 
@@ -687,11 +685,11 @@ margin-top: 5rem;
         cursor: pointer;
         position: absolute;
         display: flex;
-        top: 30%;
+        top: 35%;
         width: auto;
         padding: 16px;
         margin-top: -22px;
-        color: white;
+        color: rgb(0, 0, 0);
         font-weight: bold;
         font-size: 30px;
         transition: 0.6s ease;
@@ -728,6 +726,14 @@ margin-top: 5rem;
 }
 
 /* The dots/bullets/indicators */
+
+
+
+
+.dot.active,
+.dot:hover {
+    background-color: #e84610;
+}
 .dot {
     cursor: pointer;
     height: 15px;
@@ -737,14 +743,24 @@ margin-top: 5rem;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-
 }
 
-.dot.active,
-.dot:hover {
-    background-color: #e84610;
-}
+.dotsection {
+    width: 70%;
+    display: flex;
+    justify-content: center;
 
+  
+}
+.dotsection img {
+    border: 0px;
+    box-shadow: none;
+    width: 1rem;
+    height: 1.4rem;
+    object-fit: fill;
+    justify-content: flex-start;
+
+}
 /* Fading animation */
 .fade {
     animation-name: fade;
@@ -757,9 +773,6 @@ margin-top: 5rem;
     border: 2px solid black;
 }
 
-.options img {
-    width: 80%;
-}
 
 .countdown {
     transform: scale(1.4);
