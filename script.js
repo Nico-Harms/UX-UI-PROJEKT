@@ -21,7 +21,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.
 
     const currentYear = new Date().getFullYear();
 
-    const newYearTime = new Date("2023-03-01 00:00:00");
+    const newYearTime = new Date("2023-04-01 00:00:00");
 
 function updateCountdowntime() {
     const currentTime = new Date();
