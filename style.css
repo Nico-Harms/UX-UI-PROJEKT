@@ -182,7 +182,8 @@ h4 {
 }
 
 .options img {
-    width: 500px;
+    width: 60%;
+    height: 20rem;
     object-fit: cover;
     box-shadow: -2px 8px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -2px 8px 5px 0px rgba(0, 0, 0, 0.75);
@@ -691,7 +692,7 @@ margin-top: 5rem;
         width: auto;
         padding: 16px;
         margin-top: -22px;
-        color: white;
+        color: rgb(0, 0, 0);
         font-weight: bold;
         font-size: 30px;
         transition: 0.6s ease;
@@ -757,9 +758,6 @@ margin-top: 5rem;
     border: 2px solid black;
 }
 
-.options img {
-    width: 80%;
-}
 
 .countdown {
     transform: scale(1.4);
