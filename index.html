@@ -17,7 +17,7 @@
             <!--LOGO-->
             <a href="index.html"><img src="img/nippon-logo.webp" class="logo"></a>
 
-<!--NAV MENU -->
+            <!--NAV MENU -->
 
             <ul class="nav-menu">
                 <li class="nav-item"> <a href="options.html" class="nav-link">Måltidskasser</a> </li>
@@ -31,7 +31,7 @@
                 </div>
                 </a>
             </ul>
-<!--BURGER MENU -->
+            <!--BURGER MENU -->
 
             <div class="hamburger">
                 <span class="bar"></span>
@@ -70,6 +70,7 @@
 
         </div>
     </header>
+    <!--sliding big pictures -->
     <section class="slider">
         <figure>
             <div class="slide">
@@ -94,14 +95,15 @@
             </div>
         </figure>
     </section>
+    <!--Scroll down arrow -->
     <svg class="arrows">
-        <a href="">
+        <a href="#scroll-point">
             <path class="a1" d="M0 0 L30 32 L60 0"></path>
             <path class="a2" d="M0 20 L30 52 L60 20"></path>
             <path class="a3" d="M0 40 L30 72 L60 40"></path>
         </a>
     </svg>
-    <article class="fronttext">
+    <article class="fronttext" id="scroll-point">
         <h3>Nippon</h3>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, quas fugiat odio excepturi perspiciatis
@@ -115,21 +117,21 @@
 
 
 
-
+        <!--choose ur box section -->
         <section class="options">
             <div class="mySlides fade">
                 <div class="button-wrap">
+                    <!--Samurai box -->
                     <figcaption>Samurai</figcaption>
-
                     <img src="img/samurai.jpg" alt="">
                     <section class="dotsection" style="text-align:center">
-                        <div class="icon-section">
-                        <img src="img/spicy.webp">
-                    </div>
-                       <span class="dot" onclick="currentSlide(1)"></span>
-                       <span class="dot" onclick="currentSlide(2)"></span>
-                       <span class="dot" onclick="currentSlide(3)"></span>
-                   </section>
+                        <div class="icon-food">
+                            <img src="img/spicy.webp">
+                        </div>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </section>
                     <p>Samurai måltidskassen er til de hårde nysere, denne måltidskasse har
                         fokus på de stærke østlige krydderier
                         forbundet med det japanske køkken.</p>
@@ -139,21 +141,21 @@
 
             <div class="mySlides fade">
                 <div class="button-wrap">
+                    <!--Maiko box -->
                     <figcaption>Maiko</figcaption>
-                
                     <img src="img/maiko.jpg" alt="">
-                  
-                   
+
+
                     <section class="dotsection" style="text-align:center">
-                        <div class="icon-section">
-                        <img src="img/skalddyr.webp" alt="">
-                        <img src="img/spicy.webp">
-                    </div>
+                        <div class="icon-food">
+                            <img src="img/skalddyr.webp" alt="">
+                            <img src="img/spicy.webp">
+                        </div>
                         <span class="dot" onclick="currentSlide(1)"></span>
                         <span class="dot" onclick="currentSlide(2)"></span>
                         <span class="dot" onclick="currentSlide(3)"></span>
                     </section>
-              
+
                     <p>Maiko måltidskassen er plantebaseret,
                         her vil du finde lækre alternativer til kødvarianterne med fokus på
                         friske grøntsager af god kvalitet. </p>
@@ -163,16 +165,17 @@
 
             <div class="mySlides fade">
                 <div class="button-wrap">
+                    <!--Kejser box -->
                     <figcaption>Kejser</figcaption>
                     <img src="img/kejser.jpg" alt="">
                     <section class="dotsection" style="text-align:center">
-                        <div class="icon-section">
-                        <img src="img/vegansk.webp">
-                    </div>
-                       <span class="dot" onclick="currentSlide(1)"></span>
-                       <span class="dot" onclick="currentSlide(2)"></span>
-                       <span class="dot" onclick="currentSlide(3)"></span>
-                   </section>
+                        <div class="icon-food">
+                            <img src="img/vegansk.webp">
+                        </div>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </section>
                     <p>
                         Kejser måltidskassen indeholder lækre råvarer med fokus på skaldyr,
                         her bliver rejer, krebs og hummere inkorporeret i japanske retter. </p>
@@ -184,9 +187,12 @@
         </section>
 
     </main>
+    <!--footer -->
     <footer>
+
         <div class="top-part-footer">
             <form action="#">
+                <!--Newsletter-->
                 <h4>Nyhedsbrev</h4>
                 <input type="text" class="newsletterinput" placeholder="Name" name="name" required>
                 <input type="text" class="newsletterinput" placeholder="Email address" name="mail" required>
@@ -198,6 +204,7 @@
             </form>
             <section class="footer-text">
                 <h5>Quick links</h5>
+                <!--footer points -->
                 <ul>
                     <li><a href="#"><i class="fa-solid fa-angles-right"></i>Home</a></li>
                     <li><a href="#"><i class="fa-solid fa-angles-right"></i>Kontakt os</a></li>
@@ -206,13 +213,13 @@
                 </ul>
             </section>
         </div>
-
+        <!--SoMe -->
         <section class="SoMe-icons">
             <hr class="footer-split">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""> <i class="fa-brands fa-tiktok"></i></a>
-            <a href=""> <i class="fa-brands fa-twitter"></i></a>
-            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"> <i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
 
         </section>
     </footer>
