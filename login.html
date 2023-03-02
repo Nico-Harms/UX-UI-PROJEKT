@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/60e57c91d1.css" crossorigin="anonymous"></script>
- 
+    <script src="https://kit.fontawesome.com/60e57c91d1.js" crossorigin="anonymous"></script>
+
     
         <link rel="stylesheet" href="style.css">
 </head>
@@ -15,14 +16,20 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="index.html"><img src="img/logopng.png" class="logo"></a>
+            <a href="index.html"><img src="img/nippon-logo.webp" class="logo"></a>
 
 
             <ul class="nav-menu">
-                <li class="nav-item"> <a href="#" class="nav-link">Home</a> </li>
+                <li class="nav-item"> <a href="index.html" class="nav-link">Home</a> </li>
                 <li class="nav-item"> <a href="#" class="nav-link">Bestilt</a> </li>
                 <li class="nav-item"> <a href="#" class="nav-link">Priser</a> </li>
                 <li class="nav-item"> <a href="#" class="nav-link">Contact</a> </li>
+                <hr>
+                <div class="header-icons">
+                    <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                    <a href="#"> <i class="fa fa-cart-shopping"></i>
+                </div>
+                </a>
             </ul>
 
             <div class="hamburger">
@@ -31,7 +38,36 @@
                 <span class="bar"></span>
             </div>
         </nav>
-       
+        <div class="offer">
+            <div class="offertext">
+                <h2>25% på alle måltidskasser</h2>
+                <h3>Tilbud slutter om</h3>
+            </div>
+            <div id="countdown" class="countdown">
+
+                <div class="time">
+                    <h4 id="days"></h4>
+                    <small>Days</small>
+                </div>
+
+                <div class="time">
+                    <h4 id="hours"></h4>
+                    <small>hours</small>
+                </div>
+
+                <div class="time">
+                    <h4 id="minutes"></h4>
+                    <small>minutes</small>
+                </div>
+
+                <div class="time">
+                    <h4 id="seconds"></h4>
+                    <small>seconds</small>
+                </div>
+            </div>
+
+
+        </div>
     </header>
 <main class="main-login">
     <section class="top-login">
