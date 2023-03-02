@@ -414,6 +414,7 @@ label {
     display: flex;
     width: 100%;
     align-items: center;
+justify-content: center;
     color: var(--orangeweb);
 }
 .inline-line hr {
@@ -746,11 +747,7 @@ margin-top: 5rem;
 }
 
 .dotsection {
-    width: 70%;
-    display: flex;
-    justify-content: center;
-
-  
+    width: 60%;
 }
 .dotsection img {
     border: 0px;
@@ -758,8 +755,13 @@ margin-top: 5rem;
     width: 1rem;
     height: 1.4rem;
     object-fit: fill;
-    justify-content: flex-start;
+    
 
+}
+.icon-food {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
 }
 /* Fading animation */
 .fade {
