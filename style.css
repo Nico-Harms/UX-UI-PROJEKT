@@ -481,8 +481,12 @@ margin-top: 5rem;
     color: white;
 }
 
+/* inspiration html styling */
 
-
+.info {
+    width: 100%;
+  height: auto;
+}
 @keyframes arrow {
     0% {
         opacity: 0
