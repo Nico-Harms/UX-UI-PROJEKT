@@ -194,13 +194,14 @@
             <form action="#">
                 <!--Newsletter-->
                 <h4>Nyhedsbrev</h4>
-                <input type="text" class="newsletterinput" placeholder="Name" name="name" required>
-                <input type="text" class="newsletterinput" placeholder="Email address" name="mail" required>
+                <input type="text" id="newsletterName" class="newsletterinput" placeholder="Name" name="name" required>
+                <input type="text" id="newsletterEmail" class="newsletterinput" placeholder="Email address" name="mail" required>
                 <label>
                     <input type="checkbox" class="" checked="checked" name="subscribe"> Daglig nyhedsbrev
                 </label>
-                <input type="submit" value="Subscribe">
-                <p></p>
+                <button onclick="subscribeButton()" class="subscribe">Subscribe</button>
+              
+               
             </form>
             <section class="footer-text">
                 <h5>Quick links</h5>

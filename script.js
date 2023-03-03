@@ -1,3 +1,22 @@
+
+var newsletterEmail = document.getElementById("newsletterEmail");
+var newsletterName = document.getElementById("newsletterName");
+function subscribeButton() {
+    if (newsletterEmail.value.length == 0)
+    {
+        alert("Udfyld din Email")
+        return false;
+    }
+    else if  (newsletterName.value.length == 0)
+    {
+        alert("Udfyld dit navn")
+        return false;
+    }
+    alert("Tak for at sub")
+    return true;
+  }
+
+//Hamburger Menu
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -12,7 +31,9 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         navMenu.classList.remove("active");
     })) 
 
-    // Everything above this is for the hamburger menu 
+    // End of Menu
+
+    //Timer for 25%
 
     const days = document.getElementById('days');
     const hours = document.getElementById('hours')
@@ -41,6 +62,8 @@ console.log(diff);
 }
 
 setInterval(updateCountdowntime, 1000);
+
+//End of timer 
 
 // Image next - prev section 
 let slideIndex = 1;

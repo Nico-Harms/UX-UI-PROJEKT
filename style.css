@@ -22,8 +22,9 @@ a {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0px 30px
 }
 
 .nav-menu {
@@ -346,7 +347,8 @@ form h4 {
 }
 
 /* Style the submit button */
-input[type=submit] {
+
+.subscribe {
     background-color: #4d1616;
     color: white;
     border: none;
@@ -354,7 +356,7 @@ input[type=submit] {
     margin-top: 9px;
 }
 
-input[type=submit]:hover {
+.subscribe:hover {
     opacity: 0.8;
 }
 
@@ -831,20 +833,28 @@ margin-top: 15px;
 
 .dotsection {
     width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5.6rem;
 }
 .dotsection img {
     border: 0px;
     box-shadow: none;
-    width: 1rem;
-    height: 1.4rem;
     object-fit: fill;
+    width: 20px;
+    height: 30px;
     
 
 }
 .icon-food {
     display: flex;
     justify-content: flex-start;
+    align-items:center;
     gap: 10px;
+    width: 40%;
+    
+
 }
 /* Fading animation */
 .fade {
