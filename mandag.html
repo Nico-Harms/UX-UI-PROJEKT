@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/60e57c91d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <!--LOGO-->
+            <a href="index.html"><img src="img/nippon-logo.webp" class="logo"></a>
+
+            <!--NAV MENU -->
+
+            <ul class="nav-menu">
+                <li class="nav-item"> <a href="options.html" class="nav-link">Måltidskasser</a> </li>
+                <li class="nav-item"> <a href="inspiration.html" class="nav-link">Inspiration</a> </li>
+                <li class="nav-item"> <a href="#" class="nav-link">FAQ</a> </li>
+                <li class="nav-item"> <a href="#" class="nav-link">Nippon</a> </li>
+                <hr>
+                <div class="header-icons">
+                    <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                    <a href="#"> <i class="fa fa-cart-shopping"></i>
+                </div>
+                </a>
+            </ul>
+            <!--BURGER MENU -->
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <div class="offer">
+            <div class="offertext">
+                <h2>25% på alle måltidskasser</h2>
+                <h3>Tilbud slutter om</h3>
+            </div>
+            <div id="countdown" class="countdown">
+
+                <div class="time">
+                    <h4 id="days"></h4>
+                    <small>Days</small>
+                </div>
+
+                <div class="time">
+                    <h4 id="hours"></h4>
+                    <small>hours</small>
+                </div>
+
+                <div class="time">
+                    <h4 id="minutes"></h4>
+                    <small>minutes</small>
+                </div>
+
+                <div class="time">
+                    <h4 id="seconds"></h4>
+                    <small>seconds</small>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <figcaption id="fig-dage" class="fig-inspiration">Udvælg måltidskasse dage</figcaption>
+<main class="main-options">
+    
+    <ul>
+        
+        <li>mandag<input class="checkbox-form" type="checkbox"></li>
+        <li>tirsdag<input class="checkbox-form" type="checkbox"></li>
+        <li>onsdag<input class="checkbox-form" type="checkbox"></li>
+        <li>torsdag<input class="checkbox-form" type="checkbox"></li>
+        <li>fredag<input class="checkbox-form" type="checkbox"></li>
+        <li>lørdag<input class="checkbox-form" type="checkbox"></li>
+        <li>søndag<input class="checkbox-form" type="checkbox"></li>
+        <button class="button-antal">Bekræft</button>
+
+    </ul>
+</main>
+     <!--footer -->
+     <footer>
+
+        <div class="top-part-footer">
+            <form action="#">
+                <!--Newsletter-->
+                <h4>Nyhedsbrev</h4>
+                <input type="text" id="newsletterName" class="newsletterinput" placeholder="Name" name="name" required>
+                <input type="text" id="newsletterEmail" class="newsletterinput" placeholder="Email address" name="mail" required>
+                <label>
+                    <input type="checkbox" class="" checked="checked" name="subscribe"> Daglig nyhedsbrev
+                </label>
+                <button onclick="subscribeButton()" class="subscribe">Subscribe</button>
+              
+               
+            </form>
+            <section class="footer-text">
+                <h5>Quick links</h5>
+                <!--footer points -->
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-angles-right"></i>Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-angles-right"></i>Kontakt os</a></li>
+                    <li><a href="#"><i class="fa-solid fa-angles-right"></i></i>Job muligheder</a></li>
+                    <li><a href="#"><i class="fa-solid fa-angles-right"></i>Begivenheder</a></li>
+                </ul>
+            </section>
+        </div>
+        <!--SoMe -->
+        <section class="SoMe-icons">
+            <hr class="footer-split">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"> <i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+
+        </section>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
