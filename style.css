@@ -232,15 +232,15 @@ h4 {
 }
 
 button {
-    width: 350px;
+    width: 300px;
     margin-bottom: 20px;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
     border-radius: 10px;
     font-weight: bold;
     border: 2px solid #eb5e45;
-    background: transparent;
-    color: rgb(0, 0, 0);
+    background: #EB5E45;
+    color: #f7f7f7;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -250,7 +250,7 @@ button {
 
 button span {
     top: 0px;
-    background: #ce5403;
+    background: #EB5E45;
     height: 100%;
     width: 0%;
     border-radius: 25px;
