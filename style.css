@@ -309,107 +309,7 @@ figcaption {
     -webkit-animation: arrow 2s infinite;
 }
 
-footer {
-    height: 40vh;
-    background-color: var(--footercolor);
-   display: flex;
-   flex-direction: column;
-    width: auto;
-}
 
-form {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-
-}
-
-.check {
-    margin: 10px;
-}
-
-form h4 {
-    font-size: clamp(.5rem, 1rem, 2rem);
-    padding-top: 20px;
-    text-align: center;
-
-}
-
-
-
-.newsletterinput {
-    width: 100%;
-    padding: 10px;
-    margin: 4px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-/* Style the submit button */
-
-.subscribe {
-    background-color: #4d1616;
-    color: white;
-    border: none;
-    padding: 10px;
-    margin-top: 9px;
-}
-
-.subscribe:hover {
-    opacity: 0.8;
-}
-
-.footer-text a {
-    text-decoration: none;
-    list-style: none;
-    font-size: 1.2rem;
-    
-}
-
-.footer-text ul li {
-    list-style: none;
-    margin: 10px 10px; 
-    
-    width: 100%;
-   
-}
-.footer-split {
-    position: absolute;
-    border-radius: 2px;
-    width: 100%;
-   
-}
-
-.footer-text {
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 30px; 
-}
-.top-part-footer
-{
-    display: flex;
-    padding: 10px;
-    background-color: var(--footercolor);
-}
-
-label {
-    display: inline-block;
-    width: 300px;
-    padding: 10px 0px;
-}
-
-.SoMe-icons {
-    height: 100%;
-    background-color: var(--footercolor);
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.fa-brands {
-    font-size: 2rem;
-    padding: 20px;
-}
 
 /* Style for Login.html */ 
 .main-login {
@@ -699,7 +599,108 @@ margin-top: 15px;
     }
 
 }
+footer {
+    height: 40vh;
+    background-color: var(--footercolor);
+   display: flex;
+   flex-direction: column;
+    width: auto;
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.check {
+    margin: 10px;
+}
+
+form h4 {
+    font-size: clamp(.5rem, 1rem, 2rem);
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+
+
+.newsletterinput {
+    width: 100%;
+    padding: 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+
+.subscribe {
+    background-color: #4d1616;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 9px;
+    width: 100%;
+}
+
+.subscribe:hover {
+    opacity: 0.8;
+}
+
+.footer-text a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+    
+}
+
+.footer-text ul li {
+    list-style: none;
+    margin: 10px 10px; 
+    
+    width: 100%;
+   
+}
+.footer-split {
+    position: absolute;
+    border-radius: 2px;
+    width: 100%;
+   
+}
+
+.footer-text {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 30px; 
+}
+.top-part-footer
+{
+    display: flex;
+    padding: 10px;
+    background-color: var(--footercolor);
+}
+
+label {
+    display: inline-block;
+    width: 300px;
+    padding: 10px 0px;
+}
+
+.SoMe-icons {
+    height: 100%;
+    background-color: var(--footercolor);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-brands {
+    font-size: 2rem;
+    padding: 20px;
+}
 
 @media(max-width:768px) {
 
@@ -873,6 +874,18 @@ margin-top: 15px;
     transform: scale(1.4);
     overflow: hidden;
 }
+#newsletterName, #newsletterEmail {
+    width: 100%;
+    padding: 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#newsletterName::placeholder, #newsletterEmail::placeholder {
+    color:#333; 
+}
+
 
 
 @media(max-width:800px) {
