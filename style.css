@@ -644,8 +644,8 @@ form h4 {
 /* Style the submit button */
 
 .subscribe {
-    background-color: #4d1616;
-    color: white;
+    background-color: #f7f7f7;
+    color: #EB5E45;
     border: none;
     padding: 10px;
     margin-top: 9px;
@@ -686,7 +686,8 @@ form h4 {
 {
     display: flex;
     padding: 10px;
-    background-color: var(--footercolor);
+    background-color: #EB5E45;
+    color: #f7f7f7;
 }
 
 label {
@@ -695,9 +696,13 @@ label {
     padding: 10px 0px;
 }
 
+footer a {
+    color: #f7f7f7;
+}
+
 .SoMe-icons {
     height: 100%;
-    background-color: var(--footercolor);
+    background-color: #EB5E45;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -705,6 +710,7 @@ label {
 .fa-brands {
     font-size: 2rem;
     padding: 20px;
+    color: #f7f7f7;
 }
 
 @media(max-width:768px) {
