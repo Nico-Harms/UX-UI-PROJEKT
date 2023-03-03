@@ -34,8 +34,12 @@ a {
 }
  .nav-menu hr {
     width: 30%;
-    border: 1px solid rgb(70, 66, 66);
+    border: 1px solid #f7f7f7;
 
+ }
+
+ .nav-menu a {
+    color: #f7f7f7;
  }
  .header-icons {
     display: flex;
@@ -284,6 +288,7 @@ figcaption {
 
 .fronttext h3 {
     font-size: clamp(3rem, 5vw, 4rem);
+    color: #EB5E45;
 
 }
 
