@@ -478,6 +478,10 @@ margin: 1px;
 .button-antal {
     font-size: 20px;
 }
+
+#fig-dage {
+    font-size: 25px;
+}
 @keyframes arrow {
     0% {
         opacity: 0
