@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/60e57c91d1.js" crossorigin="anonymous"></script>
+    <title>Formular</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/60e57c91d1.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300&family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -73,55 +74,36 @@
 
         </div>
     </header>
-    <main class="main-options">
-        <h3>Vælg Måltidskasse</h3>
+   <main>
+    <div>
+        <figcaption class="fig-inspiration">Kontakt Information</figcaption>
+    </div>
+    <article>
+        <p class="p-konto">Har du allerede en konto? <u>LOG IND</u></p>
+        <div class="login-form">
+        
+            <input type="text" placeholder="Fornavn*" name="surname" required>
 
-        <ul>
-            <li>1. Samurai<input type="checkbox"></li>
-            <li>2. Maiko<input type="checkbox"></li>
-            <li>3. Kejser<input type="checkbox"></li>
+            <input type="text" placeholder="Efternavn" name="lastname" required>
 
+            <input type="text" placeholder="Gade og husnummer" name="uname" required>
 
-        </ul>
-        <a href="index.html"> <button type="button">Gense måltidskasser</button></a>
+            <input type="text" placeholder="Lejlighed, etage" name="uname" required>
 
-        <a href="options.html"> <button type="button">Bekræft</button></a>
+            <input type="text" placeholder="Postnummer*" name="uname" required>
 
-    </main>
+            <input type="text" placeholder="By*" name="uname" required>
 
+            <input type="text" placeholder="Mail*" name="uname" required>
+    
+          </div>
 
-    <footer>
-        <div class="top-part-footer">
-            <form action="#">
-                <h4>Nyhedsbrev</h4>
-                <input type="text" class="newsletterinput" placeholder="Name" name="name" required>
-                <input type="text" class="newsletterinput" placeholder="Email address" name="mail" required>
-                <label>
-                    <input type="checkbox" class="" checked="checked" name="subscribe"> Daglig nyhedsbrev
-                </label>
-                <input type="submit" value="Subscribe">
-                <p></p>
-            </form>
-            <section class="footer-text">
-                <h5>Quick links</h5>
-                <ul>
-                    <li><a href="#"><i class="fa-solid fa-angles-right"></i>Home</a></li>
-                    <li><a href="#"><i class="fa-solid fa-angles-right"></i>Kontakt os</a></li>
-                    <li><a href="#"><i class="fa-solid fa-angles-right"></i></i>Job muligheder</a></li>
-                    <li><a href="#"><i class="fa-solid fa-angles-right"></i>Begivenheder</a></li>
-                </ul>
-            </section>
-        </div>
-
-        <section class="SoMe-icons">
-            <hr class="footer-split">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-tiktok"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-        </section>
-    </footer>
+          <p class="p-konto">Send mails til mig om nyheder og tilbud<input class="checkbox-form" type="checkbox" checked="checked"></p>
+          <br>
+          <button id="button-form" class="button-inspi" type="submit">Bekræft</button>
+          
+    </article>
+   </main>
 </body>
 <script src="script.js"></script>
-
 </html>
