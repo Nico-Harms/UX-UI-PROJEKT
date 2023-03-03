@@ -467,6 +467,17 @@ margin: 0px 20px;
 #button-form {
 margin-top: 15px;
 }
+
+/* antal html styling */
+
+.fig-antal {
+    font-size: 2rem;
+margin: 1px;
+}
+
+.button-antal {
+    font-size: 20px;
+}
 @keyframes arrow {
     0% {
         opacity: 0
