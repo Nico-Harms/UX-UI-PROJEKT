@@ -93,7 +93,9 @@ function showSlides(n) {
 
 //END OF IMAGE SECTION 
 
-//CARD PAYMENT - INTERACTIVE 
+
+
+//CARD PAYMENT - INTERACTIVE  --- INACTIVE 
 document.querySelector('.card-number-input').oninput = () => {
     document.querySelector('.card-number-box').innerText = document.querySelector('.card-number-input').value;
 }
