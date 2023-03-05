@@ -442,6 +442,9 @@ color: #EB5E45;
 text-align: center;
 padding: 30px;
 }
+.p-konto a {
+    color: var(--orangeweb);
+}
 
 .checkbox-form {
     margin: 4px;
