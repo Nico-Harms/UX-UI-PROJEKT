@@ -231,6 +231,10 @@ h4 {
     margin: 5px;
 }
 
+input[type=checkbox]{
+accent-color: #eb5e45;
+}
+
 button {
     width: 300px;
     margin-bottom: 20px;
