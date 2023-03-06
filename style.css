@@ -489,6 +489,12 @@ margin: 1px;
 #fig-dage {
     font-size: 25px;
 }
+
+/*betalingskort html styling */
+
+.card-pay {
+    width: 100%;
+}
 @keyframes arrow {
     0% {
         opacity: 0
